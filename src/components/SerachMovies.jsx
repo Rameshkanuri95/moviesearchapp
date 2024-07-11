@@ -34,7 +34,7 @@ const SerachMovies = () => {
           Search
         </button>
       </form>
-      <div className="cardlist">
+      <div className="card-list">
         {movies
           .filter((movie) => movie.poster_path)
           .map((movie) => (
